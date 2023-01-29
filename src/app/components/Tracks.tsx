@@ -23,7 +23,7 @@ import {
   
   export default function Tracks() {
     return (
-      <Box py={12}>
+      <Box py={12} fontSize={{ base: 'sm', sm: 'lg', md: 'xl' }}>
         <Container maxW='1280px'>
         
         <Stack direction={{ base: 'column', md: 'row' }}>

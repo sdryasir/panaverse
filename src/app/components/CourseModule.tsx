@@ -23,7 +23,7 @@ import {
   
   export default function CourseModule() {
     return (
-      <Box bg='gray.100' py={12}>
+      <Box bg='gray.100' py={12} fontSize={{ base: 'sm', sm: 'lg', md: 'xl' }}>
         <Container maxW='1280px'>
         
         <Stack direction={{ base: 'column', md: 'row' }}>
