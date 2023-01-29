@@ -3,7 +3,6 @@ import ChakraProvider from './components/ChakraWrapper'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import Head from 'next/head'
-import { ColorModeScript } from 'nextjs-color-mode'
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
